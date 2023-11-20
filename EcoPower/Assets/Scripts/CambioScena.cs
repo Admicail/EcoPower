@@ -5,22 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class CambioScena : MonoBehaviour
 {
-    public int escena;
     // Start is called before the first frame update
     void Start()
     {
 
     }
+
     // Update is called once per frame
     void Update()
     {
-        CambiarEscena();
+
     }
-    public void CambiarEscena()
+
+    public void CambiarEscena(int numeroEscena)
     {
-        if (Input.anyKeyDown)
-        {
-            SceneManager.LoadScene(escena);
-        }
+
+        SceneManager.LoadScene(numeroEscena);
+    }
+
+    public void BtSalir()
+    {
+        Application.Quit();
     }
 }
