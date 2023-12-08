@@ -115,6 +115,7 @@ m_PackageAssets:
         - 3.0.0-pre.7
         - 3.0.0-pre.8
         - 3.0.0-pre.9
+        - 3.0.1
         compatible:
         - 2.5.0
         - 2.6.0-preview.2
@@ -409,6 +410,7 @@ m_PackageAssets:
         - 3.0.24
         - 3.0.25
         - 3.0.26
+        - 3.0.27
         compatible:
         - 1.0.2
         - 1.0.6
@@ -450,7 +452,8 @@ m_PackageAssets:
         - 3.0.24
         - 3.0.25
         - 3.0.26
-        verified: 3.0.26
+        - 3.0.27
+        verified: 3.0.27
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
