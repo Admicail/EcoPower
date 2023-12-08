@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/9. NivelAire.unity
     guid: 714c35d10f12dc1439a7d8c28c2e85a4
+  - enabled: 1
+    path: Assets/Scenes/Secret02.unity
+    guid: 636f5343cad0391419471ce14d4bbde7
   m_configObjects: {}
